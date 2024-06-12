@@ -1,5 +1,6 @@
 import random
 
+
 class DiceSimulator:
     """
     A class to simulate rolling a dice.
@@ -95,11 +96,7 @@ class DiceSimulator:
                 print("Rolling stopped.")
                 break
 
+
 if __name__ == "__main__":
     game = DiceSimulator()
     game.start()
-
-
-
-
-
